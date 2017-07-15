@@ -1,0 +1,15 @@
+﻿* Mô tả yêu cầu bài toán
+    -  Xây dựng chương trình“ quản lý nhân viên cửa hàng vừa và nhỏ” nhằm hổt rợ cho công tác quản lý nhân viên. Bài toán đặt ra là phân tích thiết kế hệ thống thông tin, vấn đề đặt ra là vì sao phải quản lý? Và quản lý như thế nào để công việc có hiệu quả, tiết kiệm được thời gian cho cán bộ quản lý.
+    -  Hiện nay các cửa hàng ở Việt Nam, cũng như cácdoanh nghiệpđang trong tiến trình ứng dụng mạnh mẽ sự phát triển của công nghệ thông tin vào quản lý. Mới đầu chỉ là những máy tính cá nhân đơn giản và chođến nay là các mạng thông tin phức tạp. Tuy nhiên do đặc điểm công nghệ thông tin 
+       của Việt Nam mớ itrong quá trình phát triển nên mặc dù đã quan tâm đến việc ứng dụng công nghệ thông tin vảo quản lý nhưng các phần mềm hệt hống, các phần mềm trợ giúp hoặc phần mềm quản lý có thể thay thế hoàn toàn công việc thủ công chưa được quan tâm. Với chương 
+       trình “quản lý nhân viên cửa hàng vừa và nhỏ” này hi vọng sẽ giúp cho công tác quản lý nhân viên diễn ra đơn giản và tiết kiệm thời gian hơn.
+* Mô tả các loại người dùng
+    - Người dùng là các cán bộ quản lý
+              - Quản lý hệ thống có quyền cập nhập, chỉnh sửa thông tin trong toàn hệ thống, với hệ thống”quản lý nhân viên” người quản lý hệ thống có chức năng cập nhập thông tin về nhân viên như: họtên, ngàysinh, quêquán, CMND, ngày vào làm….
+	      + Quản Lý Nhân Viên: Hệ thống sẽ nhập danh sách nhân viên có sẵn trong cửa hàng, thêm sửa thông tin nhân viên, và xóa nhân viên trong trường hợp nhân viên bị thôi viêck hoặc nguyên nhân nào đó.
+	      + Quản Lý Lương – Thêm : ngày làm của Nhân Viên dựa vào mã nhân viên rồi sau đó tính lương cho nhân viên
+	     + Theo Dõi Xử Lý :quá trình này là quá trình cốt lõi của hệ thống, nó bao gồm các chức năng con.
+	     + Nhập
+	     + Sửa
+    
+
