@@ -1,0 +1,6 @@
+﻿BÀI TẬP PHÁT TRIỂN PHẦN MỀM MÃ NGUỒN MỞ
+
+Đề Tài: Phần Mềm Quản Lí Nhân Viên Cửa Hàng Vừa Và Nhỏ ( Viết bằng ngôn ngữ Java )
+Thành Viền : - Trần Minh Tín
+ 	        SDT : 0898157214
+	        Email: Tranminhtin56@gmail.com
