@@ -1,38 +1,4 @@
-﻿Quy tắc làm việc trên kho mã nguồn Github
+﻿CÁCH LẤY VÀ ĐÓNG GÓP MÃ NGUỒN
 
-* Tài khoản quản lý
-   - Kho code chính của OpenCPS (OpenCPS Repository) được quản lý thông qua tài khoản của tổ chức VietOpenCPS Organization.
-   - Tài khoản của tổ chức OpenCPS được quản lý bởi Ban quản trị OpenCPS và đội ngũ phát triển code chính.
-* Nguyên tắc phát triển code
-   - Tự do đóng góp: Tất cả mọi người dù là người quản lý kho code, thành viên đội code hay những người đóng góp thuộc các tổ chức, công ty, các cá nhân... đều có thể đóng góp phát triển code một cách tự do.
-   - Ghi công đóng góp: Việc phát triển code phải thực hiện trên kho code riêng, không được code trực tiếp trên kho code chính của OpenCPS (kể cả tài khoản của người quản lý kho code).
-   - Kiểm duyệt chéo: Những người quản lý kho code sẽ chịu trách nhiệm việc kiểm duyệt code được đóng góp vào kho code chính. (Nên hạn chế việc tự duyệt code của mình trên kho code chính).
-* Quy trình tham gia phát triển code
-   - Để tham gia phát triển code, chỉ cần 1 tài khoản trên Github. Sau đó truy cập kho code của OpenCPS, ấn nút Fork để copy project có sẵn thành project của mình, rồi sau đó ta có thể tự do chỉnh sửa project đó của mình.
-   - Chỉnh sửa xong thì ấn nút Pull Request để gửi yêu cầu đóng góp lên cho những người quản lý kho code.
-   - Những người quản lý kho code sẽ kiểm tra và phê duyệt các đóng góp này. Nếu đóng góp chưa đạt hoặc cần chỉnh sửa thì những người quản lý có thể viết góp ý ngay tại yêu cầu đóng góp và trả lại để người đóng góp
-     chỉnh sửa theo góp ý và gửi lại sau khi đã sửa xong. Quá trình này diễn ra cho đến khi yêu cầu đóng góp được chấp nhận, đóng góp đó sẽ được trộn (merge) vào các nhánh phù hợp với dự án được đóng góp.
-   - Để tăng hiệu suất quản lý, toàn bộ công việc chỉnh sửa, xử lý xung đột... trước khi gửi đóng góp lên sẽ do người đóng góp xử lý. Người quản lý kho code sẽ chỉ việc kiểm tra và trả lời chứ không phải mất công để sửa lại
-     code được đóng góp.
-* Gợi ý cho các doanh nghiệp / nhóm tham gia phát triển code
-   - Nếu doanh nghiệp của bạn có nhiều nhân viên tham gia phát triển code thì thay vì tham gia dự án dưới tư cách của cá nhân, các bạn có thể tham gia phát triển dự án dưới tư cách của doanh nghiệp (trường hợp doanh 
-     nghiệp trả lương cho nhân viên để phát triển code của OpenCPS). Dưới đây là hướng dẫn:
-	+ Đại diện doanh nghiệp đăng ký tài khoản code, tạo tổ chức mang tên doanh nghiệp và add các thành viên vào tổ chức của mình.
-	+ Đại diện doanh nghiệp fork dự án về kho code của doanh nghiệp.
-	+ Các thành viên trong doanh nghiệp fork dự án từ kho code của doanh nghiệp về kho code của cá nhân. Nhân viên doanh nghiệp Pull Request vào kho code của doanh nghiệp sau đó doanh nghiệp Pull Request 
-                      vào kho code chung của OpenCPS.
-	+ Theo hình thức này, một cá nhân vừa có thể tham gia trực tiếp vào dự án của OpenCPS (phát triển ngoài giờ làm việc) và tham gia dưới tư cách là nhân viên của doanh nghiệp (phát triển trong giờ làm việc).
-
-* Các chú ý
-  - Trong quá trình làm phải commit thường xuyên lên nhánh develop, khi xong xuôi thì merge/rebase vào nhánh master. Không nên chờ đến khi có kết quả cuối cùng mới commit lên kho code chính, vì như thế sẽ gia tăng nguy 
-     cơ xung đột code giữa các thành viên trong nhóm và giữa các nhóm với nhau.
-  - Quá trình phát triển, kho cá nhân của bạn (fork) trên GitHub có thể cũ so với kho gốc chính của dự án (upstream). Tham khảo các thủ tục bên dưới để đồng bộ kho local với kho upstream rồi push lên kho cá nhân (fork) trên GitHub.
-  - Cấu hình upstream (để có thể đồng bộ các thay đổi với kho gốc chính của dự án)
-	+ Kiểm tra các kho remote hiện tại: $ git remote -v
-	+ Thêm kho gốc chính thành upstream: $ git remote add upstream git@github.com:VietOpenCPS/OpenCPS.git
-	+ Kiểm tra lại lần nữa (sẽ thấy kho upstream vừa được thêm vào)
-   - Đồng bộ code từ upstream (kho gốc chính của dự án)
-	+ Lấy các thay đổi từ kho gốc về: $ git fetch upstream => các thay đổi trong nhánh develop sẽ được lấy về tại upstream/develop
-	+ Chuyển sang nhánh develop trên kho local: $ git checkout develop
-	+ Trộn các thay đổi trong upstream/develop vào master: $ git merge upstream/develop
-	+ Đẩy các thay đổi vừa trộn lên kho cá nhân trên GitHub: $ git push
+	- Truy cập vào đường link : https://github.com/BTMNM/BTMNM
+	- Hoặc liện lạc địa chỉ email: Tranminhtin56@gmail.com để được rõ hơn.
