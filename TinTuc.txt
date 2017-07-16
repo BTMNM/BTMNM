@@ -1,0 +1,9 @@
+﻿* Tin tức của sản phẩm
+	- Đây là ấn phẩm duy nhất chỉ có xuất hiện trên thị trường. Với nhiều tính năng tiện lợi cho người sử dụng.
+	- Phần mềm đơn giản dễ sử dụng mang lại cảm giác thoải mái cho người dùng.
+	- Nếu phần mềm có ji sai xót hoặc sự cố xin thông báo tại địa chỉ email: tranminhtin56@gmail.com để được khắc phục
+* Bản phân phối
+	- Đây là ấn phẩm duy nhất nên chỉ được phân phối trên địa chị:https://github.com/BTMNM/BTMNM.
+	- Nếu có bản cập nhập mới của phần mềm sẽ được thông báo trên kênh truyền thông của sản phẩm.
+* Kênh truyền thông
+	https://www.youtube.com/channel/UC5mEXdXjCWaZXGhhmhlNqUg
